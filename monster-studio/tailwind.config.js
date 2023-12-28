@@ -5,7 +5,11 @@ module.exports = {
     "./node_modules/flowbite-react/**/*.js"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        body: ['Roboto']
+      }
+    },
   },
   plugins: [
     require("flowbite/plugin")
