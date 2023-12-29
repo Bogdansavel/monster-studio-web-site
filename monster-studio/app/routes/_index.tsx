@@ -17,13 +17,13 @@ export default function Index() {
       <div className="w-96 h-72 lg:h-[25rem] lg:w-[40rem] 2xl:h-[35rem] 2xl:w-[50rem] pt-4">
         <Flowbite theme={{ theme: customTheme }}>
           <Carousel slideInterval={7000}>
-            <img className='rounded' src="IMG_3522.JPG" alt="..." />
-            <img className='rounded' src="IMG_3523.JPG" alt="..." />
-            <img className='rounded' src="IMG_3524.JPG" alt="..." />
+            <img className='rounded-3xl' src="IMG_3522.JPG" alt="..." />
+            <img className='rounded-3xl' src="IMG_3523.JPG" alt="..." />
+            <img className='rounded-3xl' src="IMG_3524.JPG" alt="..." />
           </Carousel>
         </Flowbite>
       </div>
-      <div className='grid grid-cols-12 lg:grid-cols-12'>
+      <div className='grid grid-cols-12'>
           <p className='text-white py-4 col-start-2 col-span-10 2xl:col-start-4 2xl:col-span-6 text-center mt-3'>
           W Monster studio zajęcia z pole Dance i Exotic trwają 80 minut. Na sali 7 rur i 4 koła na drugiej, będziesz sam na rurce. 
           Z Monster studio będziesz zawsze wysportowany i rozciągnięty po takich zajęciach:
