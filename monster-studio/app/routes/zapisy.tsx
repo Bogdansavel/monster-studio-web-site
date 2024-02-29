@@ -74,7 +74,7 @@ export default function Index() {
     return (
         <div className="grid w-full mt-5 gap-4 justify-items-center">
             <div className="grid w-96 py-5 text-white text-xl border-2 rounded-xl border-neutral-700 justify-items-center">
-                <h1 className="text-3xl mb-5"><b>Cennik!</b></h1>
+                <h1 className="text-3xl mb-5"><b>Cennik</b></h1>
                 <div className='grid grid-cols-2 gap-4 justify-items-center'>
                 {cenniks.map((cennik) => {
                     return <ModalButton name={cennik.name} desc={cennik.desc}/> 
