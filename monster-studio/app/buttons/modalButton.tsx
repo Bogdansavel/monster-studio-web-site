@@ -29,20 +29,18 @@ const customTheme: CustomFlowbiteTheme = {
     },
   };
 
-interface ActivityProps {
-    img: string,
+  interface ModalButtonProps {
     name: string,
     desc: string
-}
+}  
 
-export default function Activity(props: ActivityProps) {
+export default function ModalButton(props: ModalButtonProps) {
     const [openModal, setOpenModal] = useState(false);
 
     return (
         <div>
             <a href={'#' + props.name}>
-                <div className="grid justify-items-center text-white text-sm m-3">
-                    <img onClick={() => setOpenModal(true)} src={props.img} className="w-28" alt="activity pic" />
+                <div className="text-white text-sm">
                     <div onClick={() => setOpenModal(true)} className="bg-zinc-900 px-5 py-3 mt-1 rounded-3xl text-center hover:bg-zinc-800">
                         {props.name}
                     </div>
