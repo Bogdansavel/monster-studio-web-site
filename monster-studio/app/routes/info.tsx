@@ -6,7 +6,7 @@ export default function Info() {
                 <p>Adres: Kraków, ul. Koletek 4/10.</p>
                 <div>
                     <div className="pt-3">
-                        <video className="rounded-3xl" width="480" height="480" poster="videoPoster.png" controls controlsList="nofullscreen" autoPlay loop preload="">
+                        <video className="rounded-3xl" width="480" height="480" poster="videoPoster.png" controls controlsList="nofullscreen" playsInline autoPlay loop preload="">
                             <source src="https://storage.googleapis.com/monster-studio-web-site_cloudbuild/MonsterVideo.mp4" type="video/mp4" />
                         </video>
                     </div>
