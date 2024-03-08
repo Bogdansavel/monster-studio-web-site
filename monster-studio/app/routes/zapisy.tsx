@@ -59,13 +59,13 @@ export default function Index() {
     const [openModal, setOpenModal] = useState(false);
 
     const cenniks = [
-        new CennikPosition('1 wejście - 55zł', 'Jednorazowe wejście na wybrane przez Ciebie zajęcie w grupie. Karnet jest aktywny przez 30 dni od dnia zakupu.'),
-        new CennikPosition('Karnet 4 - 190zł', 'Karnet obejmuje 4 wejścia na grupowe zajęcia, aktywny przez 30 dni od dnia zakupu.'),
-        new CennikPosition('Karnet 6 - 250zł', 'Karnet obejmuje 6 wejść na grupowe zajęcia, aktywny przez 30 dni od dnia zakupu.'),
-        new CennikPosition('Karnet 8+1 - 290zł', 'Karnet łączy w sobie 8 wejść na grupowe zajęcia i 1 wejście na open pole. Aktywny przez 30 dni od dnia zakupu.'),
-        new CennikPosition('Karnet 12 - 390zł', 'Karnet obejmuje 12 wejść na grupowe zajęcia, aktywny przez 30 dni od dnia zakupu.'),
-        new CennikPosition('Moooonster - 499zł', 'Karnet obejmuje 30 zajęć grupowych. Możliwość zapisania się maksymalnie na 7 treningów tygodniowo, aktywny przez 30 dni od dnia zakupu.'),
-        new CennikPosition('Open pole - 30zł', 'To jedne wersje bez trenera.'),
+        new CennikPosition('1 wejście - 60zł', 'Jednorazowe wejście na wybrane przez Ciebie zajęcie w grupie. Karnet jest aktywny przez 30 dni od dnia zakupu.'),
+        new CennikPosition('Karnet 4 - 220zł', 'Karnet obejmuje 4 wejścia na grupowe zajęcia, aktywny przez 30 dni od dnia zakupu.'),
+        new CennikPosition('Karnet 6 - 280zł', 'Karnet obejmuje 6 wejść na grupowe zajęcia, aktywny przez 30 dni od dnia zakupu.'),
+        new CennikPosition('Karnet 8+1 - 320zł', 'Karnet łączy w sobie 8 wejść na grupowe zajęcia i 1 wejście na open pole. Aktywny przez 30 dni od dnia zakupu.'),
+        new CennikPosition('Karnet 12 - 420zł', 'Karnet obejmuje 12 wejść na grupowe zajęcia, aktywny przez 30 dni od dnia zakupu.'),
+        new CennikPosition('Moooonster - 599zł', 'Karnet obejmuje 30 zajęć grupowych. Możliwość zapisania się maksymalnie na 7 treningów tygodniowo, aktywny przez 30 dni od dnia zakupu.'),
+        new CennikPosition('Open pole - 40zł', 'To jedne wersje bez trenera.'),
         new CennikPosition('Personalne - 160zł', 'Jeden 60 minutowy  trening z trenerem face to face.'),
         new CennikPosition('Impreza - od 900zł', 'Masz urodziny, wieczór panieński albo po prostu chcesz imprezować z rurami i szampanem? To zapraszam do kontaktu 794451272.'),
         new CennikPosition('Dziecki - 225zł', 'Karnet dla osób od 6 do 14 lat na 6 zajęć w grupie. On jest aktywny 30 dni od dnia zakupu.')
