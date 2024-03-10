@@ -67,8 +67,8 @@ export default function Index() {
         new CennikPosition('Moooonster - 599zł', 'Karnet obejmuje 30 zajęć grupowych. Możliwość zapisania się maksymalnie na 7 treningów tygodniowo, aktywny przez 30 dni od dnia zakupu.'),
         new CennikPosition('Open pole - 40zł', 'To jedne wersje bez trenera.'),
         new CennikPosition('Personalne - 160zł', 'Jeden 60 minutowy  trening z trenerem face to face.'),
-        new CennikPosition('Impreza - od 900zł', 'Masz urodziny, wieczór panieński albo po prostu chcesz imprezować z rurami i szampanem? To zapraszam do kontaktu 794451272.'),
-        new CennikPosition('Dziecki - 225zł', 'Karnet dla osób od 6 do 14 lat na 6 zajęć w grupie. On jest aktywny 30 dni od dnia zakupu.')
+        new CennikPosition('Impreza - od 1100zł', 'Masz urodziny, wieczór panieński albo po prostu chcesz imprezować z rurami i szampanem? To zapraszam do kontaktu 794451272.'),
+        new CennikPosition('Dziecki - 255zł', 'Karnet dla osób od 6 do 14 lat na 6 zajęć w grupie. On jest aktywny 30 dni od dnia zakupu.')
     ];
 
     return (
