@@ -1561,10 +1561,6 @@ input:checked + .toggle-bg{
   width: 1rem;
 }
 
-.w-48{
-  width: 12rem;
-}
-
 .w-5{
   width: 1.25rem;
 }
@@ -1854,14 +1850,6 @@ input:checked + .toggle-bg{
   gap: 1rem;
 }
 
-.gap-5{
-  gap: 1.25rem;
-}
-
-.gap-6{
-  gap: 1.5rem;
-}
-
 .-space-x-4 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(-1rem * var(--tw-space-x-reverse));
@@ -1984,10 +1972,6 @@ input:checked + .toggle-bg{
   border-radius: 0.25rem;
 }
 
-.rounded-2xl{
-  border-radius: 1rem;
-}
-
 .rounded-3xl{
   border-radius: 1.5rem;
 }
@@ -2072,11 +2056,6 @@ input:checked + .toggle-bg{
   border-top-right-radius: 0.5rem;
 }
 
-.rounded-t-\[5rem\]{
-  border-top-left-radius: 5rem;
-  border-top-right-radius: 5rem;
-}
-
 .border{
   border-width: 1px;
 }
@@ -2087,10 +2066,6 @@ input:checked + .toggle-bg{
 
 .border-2{
   border-width: 2px;
-}
-
-.border-4{
-  border-width: 4px;
 }
 
 .border-b{
@@ -2947,11 +2922,6 @@ input:checked + .toggle-bg{
   padding-bottom: 1.25rem;
 }
 
-.py-8{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .pb-2{
   padding-bottom: 0.5rem;
 }
@@ -3125,10 +3095,6 @@ input:checked + .toggle-bg{
 
 .leading-tight{
   line-height: 1.25;
-}
-
-.tracking-tight{
-  letter-spacing: -0.025em;
 }
 
 .text-black{
@@ -3817,11 +3783,6 @@ ul.navbar li {
 .hover\:border-gray-300:hover{
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
-}
-
-.hover\:border-purple-600:hover{
-  --tw-border-opacity: 1;
-  border-color: rgb(126 58 242 / var(--tw-border-opacity));
 }
 
 .hover\:bg-cyan-100:hover{
@@ -5815,10 +5776,6 @@ ul.navbar li {
 }
 
 @media (min-width: 640px){
-  .sm\:col-span-2{
-    grid-column: span 2 / span 2;
-  }
-
   .sm\:mx-auto{
     margin-left: auto;
     margin-right: auto;
@@ -5844,20 +5801,12 @@ ul.navbar li {
     height: 1.75rem;
   }
 
-  .sm\:h-\[29rem\]{
-    height: 29rem;
-  }
-
   .sm\:w-10{
     width: 2.5rem;
   }
 
   .sm\:w-6{
     width: 1.5rem;
-  }
-
-  .sm\:grid-cols-2{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .sm\:rounded-t-\[3rem\]{

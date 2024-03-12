@@ -81,26 +81,6 @@ export default function Index() {
                 })}
                 </div>
             </div>
-            <div className='w-48 border-neutral-700 hover:border-purple-600 border-4 rounded-2xl'>
-                <Link to=""><img onClick={() => setOpenModal(true)} className='justify-items-center rounded-xl' src="5plus1.jpg" /></Link>
-            </div>
-            <Flowbite theme={{ theme: customTheme }}>
-                <Modal dismissible show={openModal} onClose={() => setOpenModal(false)}>
-                    <Modal.Header>A ta promka dla ciebie!</Modal.Header>
-                    <Modal.Body>
-                        <div className="space-y-6">
-                            <p className="text-base leading-relaxed text-black">
-                            Przy zakupie takich samych 6 karnetów zaptacisz jak za 5.<br/><br/>
-                            Karnet 4 - <s>1140zł</s> 950zł<br/>
-                            Karnet 6 - <s>1500zł</s> 1250zł<br/>
-                            Karnet 8+1 - <s>1740zł</s> 1450zł<br/>
-                            Karnet Moooonster - <s>2994zł</s> 2495zł<br/>
-                            Daty rozpoczecia twoich karnetów wybierasz sam.
-                            </p>
-                        </div>
-                    </Modal.Body>
-                </Modal>
-            </Flowbite>
             <div className='text-neutral-500 text-sm p-5'>
                 <p>
                     Informujemy, że anulacja zajęć grupowych jest możliwa do 24 godzin przed ich rozpoczęciem 
