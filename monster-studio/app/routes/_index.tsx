@@ -36,7 +36,7 @@ export default function Index() {
     new ActivityClass("aerial silks.png", "Aerial Silks", "To dyscyplina sportowa, która polega na wykonywaniu figur i kombinacji na podwieszonej do sufitu szarfie. Proszę ubrać coś z długim  rękawem."),
   ]
 
-  const carouselImages = ["IMG_2954.JPG", "IMG_6897.JPG", "IMG_6031.JPG", "IMG_6958.JPG", "IMG_6052.JPG"];
+  const carouselImages = ["IMG_2955.JPG", "IMG_6897.JPG", "IMG_6031.JPG", "IMG_6958.JPG", "IMG_6052.JPG"];
 
   return (
     <div className='grid justify-items-center'>
