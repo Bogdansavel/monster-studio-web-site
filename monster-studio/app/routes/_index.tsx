@@ -2,12 +2,32 @@ import { Carousel } from 'flowbite-react';
 import type { CustomFlowbiteTheme } from 'flowbite-react';
 import { Flowbite } from 'flowbite-react';
 import Activity from '~/activity';
+import { Modal } from 'flowbite-react';
+import { useState } from 'react';
 
 const customTheme: CustomFlowbiteTheme = {
-  carousel: {
-    control: {
-      base: "bg-white-50"
-    }
+  modal: {
+      content: {
+          base: "relative w-full p-4 h-auto",
+          inner: "relative rounded-lg shadow bg-zinc-900 flex flex-col max-h-[90vh]"
+        },
+        body: {
+          base: "p-4 flex-1 overflow-auto text-black rounded-b-lg",
+          popup: "pt-0"
+        },
+        header: {
+          base: "flex items-start justify-between rounded-t border-gray-600 border-b p-5",
+          popup: "p-2 border-b-0",
+          title: "text-xl font-medium text-gray-900 text-white",
+          close: {
+            base: "ml-auto inline-flex items-center rounded-lg bg-transparent p-1.5 text-sm text-gray-400 hover:bg-gray-600 hover:text-white",
+            icon: "h-5 w-5"
+          }
+        },
+        footer: {
+          base: "flex items-center space-x-2 rounded-b p-6 border-gray-600",
+          popup: "border-t"
+        }
   },
 };
 
@@ -38,8 +58,15 @@ export default function Index() {
 
   const carouselImages = ["IMG_2955.JPEG", "IMG_6897.JPG", "IMG_6031.JPG", "IMG_6958.JPG", "IMG_6052.JPG"];
 
-  return (
+  const ad = [
+    "bg-gradient-to-r from-orange-500 to-amber-500 hover:bg-gradient-to-r hover:to-orange-500 hover:from-amber-500 rounded-3xl p-2 m-4",
+  ];
+
+  const [openModal, setOpenModal] = useState(true);
+
+  return (  
     <div className='grid justify-items-center'>
+      <a href='#'><div className={ad[0]} onClick={() => setOpenModal(true)}>Rocznica studio!</div></a>
       <div className="w-96 h-72 lg:h-[25rem] lg:w-[40rem] 2xl:h-[35rem] 2xl:w-[50rem] pt-4">
         <Flowbite theme={{ theme: customTheme }}>
           <Carousel slideInterval={7000}>
@@ -61,6 +88,15 @@ export default function Index() {
             </div>
           </div>
         </div>
+
+        <Flowbite theme={{ theme: customTheme }}>
+          <Modal dismissible show={openModal} onClose={() => setOpenModal(false)}>
+              <Modal.Header>Rocznica studio!</Modal.Header>
+              <Modal.Body>
+                <img src='birthdayAd.PNG' />
+              </Modal.Body>
+          </Modal>
+        </Flowbite>
     </div>
   );
 }
