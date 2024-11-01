@@ -1223,6 +1223,18 @@ input:checked + .toggle-bg{
   margin: 1.25rem;
 }
 
+.m-6{
+  margin: 1.5rem;
+}
+
+.m-2{
+  margin: 0.5rem;
+}
+
+.m-4{
+  margin: 1rem;
+}
+
 .-mx-1{
   margin-left: -0.25rem;
   margin-right: -0.25rem;
@@ -1996,6 +2008,10 @@ input:checked + .toggle-bg{
   border-radius: 0.75rem;
 }
 
+.rounded-2xl{
+  border-radius: 1rem;
+}
+
 .rounded-b{
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -2656,6 +2672,24 @@ input:checked + .toggle-bg{
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-orange-700{
+  --tw-gradient-from: #B43403 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(180 52 3 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-orange-400{
+  --tw-gradient-from: #FF8A4C var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 138 76 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-orange-500{
+  --tw-gradient-from: #FF5A1F var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 90 31 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .via-cyan-500{
   --tw-gradient-to: rgb(6 182 212 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), #06b6d4 var(--tw-gradient-via-position), var(--tw-gradient-to);
@@ -2763,6 +2797,10 @@ input:checked + .toggle-bg{
 
 .to-yellow-300{
   --tw-gradient-to: #FACA15 var(--tw-gradient-to-position);
+}
+
+.to-amber-500{
+  --tw-gradient-to: #f59e0b var(--tw-gradient-to-position);
 }
 
 .fill-current{
@@ -3901,6 +3939,12 @@ ul.navbar li {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.hover\:from-amber-500:hover{
+  --tw-gradient-from: #f59e0b var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(245 158 11 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .hover\:to-emerald-500:hover{
   --tw-gradient-to: #10b981 var(--tw-gradient-to-position);
 }
@@ -3911,6 +3955,18 @@ ul.navbar li {
 
 .hover\:to-yellow-300:hover{
   --tw-gradient-to: #FACA15 var(--tw-gradient-to-position);
+}
+
+.hover\:to-blue-300:hover{
+  --tw-gradient-to: #A4CAFE var(--tw-gradient-to-position);
+}
+
+.hover\:to-orange-700:hover{
+  --tw-gradient-to: #B43403 var(--tw-gradient-to-position);
+}
+
+.hover\:to-orange-500:hover{
+  --tw-gradient-to: #FF5A1F var(--tw-gradient-to-position);
 }
 
 .hover\:text-cyan-700:hover{
