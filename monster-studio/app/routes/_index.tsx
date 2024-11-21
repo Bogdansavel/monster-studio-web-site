@@ -2,8 +2,6 @@ import { Carousel } from 'flowbite-react';
 import type { CustomFlowbiteTheme } from 'flowbite-react';
 import { Flowbite } from 'flowbite-react';
 import Activity from '~/activity';
-import { Modal } from 'flowbite-react';
-import { useState } from 'react';
 
 const customTheme: CustomFlowbiteTheme = {
   modal: {
@@ -62,11 +60,8 @@ export default function Index() {
     "bg-gradient-to-r from-orange-500 to-amber-500 hover:bg-gradient-to-r hover:to-orange-500 hover:from-amber-500 rounded-3xl p-2 m-4",
   ];
 
-  const [openModal, setOpenModal] = useState(true);
-
   return (  
     <div className='grid justify-items-center'>
-      <a href='#'><div className={ad[0]} onClick={() => setOpenModal(true)}>Rocznica studio!</div></a>
       <div className="w-96 h-72 lg:h-[25rem] lg:w-[40rem] 2xl:h-[35rem] 2xl:w-[50rem] pt-4">
         <Flowbite theme={{ theme: customTheme }}>
           <Carousel slideInterval={7000}>
@@ -88,15 +83,6 @@ export default function Index() {
             </div>
           </div>
         </div>
-
-        <Flowbite theme={{ theme: customTheme }}>
-          <Modal dismissible show={openModal} onClose={() => setOpenModal(false)}>
-              <Modal.Header>Rocznica studio!</Modal.Header>
-              <Modal.Body>
-                <img src='birthdayAd.PNG' />
-              </Modal.Body>
-          </Modal>
-        </Flowbite>
     </div>
   );
 }
