@@ -22,7 +22,7 @@ export default function Header() {
                 <NavButton activeNavStyle={activeNavs[2]} inactiveNavStyle={inactiveNavs[2]} text="Info" to="info" reloadDocument={false} />
             </ul>
             <div className="flex gap-3">
-                <a href='https://www.instagram.com/monster_might/' className='w-5 pt-4'>
+                <a href='https://www.instagram.com/monster.pole/' className='w-5 pt-4'>
                     <img src="instlg.png" alt="instagram logo"/>
                 </a>
                 <a href='https://youtube.com/@Darth._.julder' className='w-7 pt-4'>
