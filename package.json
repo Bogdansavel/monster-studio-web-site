@@ -3,7 +3,10 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
+  "homepage": "https://bogdansavel.github.io/monster-studio-web-site",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "npm run build:css && remix build",
     "build:css": "tailwindcss -m -i ./css/app.css -o app/css/app.css",
     "dev": "concurrently \"npm run dev:css\" \"remix dev\"",
@@ -30,6 +33,7 @@
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "eslint": "^8.38.0",
+    "gh-pages": "^6.3.0",
     "typescript": "^5.1.6"
   },
   "engines": {
